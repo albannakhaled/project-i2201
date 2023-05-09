@@ -1,0 +1,27 @@
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: 2px solid black;
+}
+.cell {
+  box-sizing: border-box;
+  width: 33.33%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 5em;
+  text-align: center;
+}
+body{
+  background-color: rgb(213, 224, 221);
+}
+.cell:hover{
+  background-color: white;
+}
+#title{
+  text-align: center;
+  font-style: italic;
+}

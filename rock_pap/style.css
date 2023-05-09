@@ -1,0 +1,28 @@
+#game {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.choice {
+  border: 2px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.choice:hover {
+  background-color: #ddd;
+}
+
+.choice img {
+  width: 100px;
+}
+
+#winner {
+  font-weight: bold;
+  font-size: 24px;
+}
+#result{
+  text-align: center;
+  font-size: 40px;
+}
